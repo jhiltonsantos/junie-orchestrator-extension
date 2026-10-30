@@ -1,0 +1,4 @@
+{
+  "name": "orchestrator",
+  "description": "Multi-agent orchestration for Junie CLI. The main agent plans and delegates to specialist subagents (explorer, fixer), each running on a model profile you choose. Includes a guided setup and a doctor that detects missing model profiles."
+}

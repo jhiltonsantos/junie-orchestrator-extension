@@ -1,0 +1,26 @@
+{
+  "name": "junie-orchestrator",
+  "owner": {
+    "name": "Hilton Santos",
+    "email": "jhilton930@gmail.com"
+  },
+  "metadata": {
+    "description": "Multi-agent orchestration for Junie CLI: an Orchestrator that plans and delegates to specialist subagents, each on a model you choose.",
+    "version": "0.1.0",
+    "homepage": "https://github.com/jhiltonsantos/junie-orchestrator-extension"
+  },
+  "extensions": [
+    {
+      "name": "orchestrator",
+      "source": "./extensions/orchestrator",
+      "description": "An Orchestrator guideline plus specialist subagents (explorer, fixer). Each subagent runs on its own model profile, chosen by you, with any provider Junie supports as a custom model.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hilton Santos"
+      },
+      "category": "workflow",
+      "homepage": "https://github.com/jhiltonsantos/junie-orchestrator-extension",
+      "keywords": ["orchestrator", "multi-agent", "subagents", "delegation", "models"]
+    }
+  ]
+}
